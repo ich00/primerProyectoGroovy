@@ -1,0 +1,10 @@
+target/
+target-eclipse/
+test/
+web-app/jasperResources/
+.settings/
+.svn/
+.classpath
+.project
+cobertura.ser
+*.class

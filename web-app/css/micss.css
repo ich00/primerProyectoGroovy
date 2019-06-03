@@ -1,0 +1,157 @@
+table, th , td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center
+    
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body{
+	display: table;
+}
+table {
+    border-spacing: 25px;
+    width: 90%;
+    margin-bottom:30px;
+    margin-top: 40px;
+    
+}
+.footer-bottom {
+	background: #E3E3E3;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	display: table-row;
+	height: auto;
+	height: 70px;
+	
+}
+.footer-bottom p.pull-left {
+	padding-top: 10px;
+}
+
+
+a { 
+	text-decoration:none;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-size:17px;
+ }
+ 
+ a:hover{
+ 	color: #000000;
+ 	text-decoration:none;
+  	font-size:20px;
+ }
+ .maestros{
+ 	margin: 30px 0 30px 30px;
+ 	text-align: center;
+ }
+ 
+ .admin{
+ 	font-family: 'Press Start 2P', cursive;
+ 	margin-top: 40px;
+ 	margin-bottom: 40px;
+ }
+ 
+ 
+th{
+	background-color: #E1F5A9;
+	
+}
+
+.inicio {
+	
+  background: url('../images/zoo.jpg') no-repeat 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 230px 0;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  position: relative;
+  
+}
+.inicio:before {
+  content: '';
+  z-index: 9;
+  background: rgba(255, 255, 255, 0.65);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.inicio .block {
+  position: relative;
+  z-index: 999;
+}
+.inicio h1 {
+  font-family: 'Homemade Apple', cursive;
+  line-height: 100px;
+  color: #333;
+  font-weight: 600;
+  font-size: 480%;
+  margin-bottom: 15px;
+  
+}
+.inicio h2 {
+  font-size: 28px;
+  font-weight: 300;
+  margin-bottom: 38px;
+  line-height: 27px;
+  color: #666;
+  font-family: 'Satisfy', cursive;
+  margin-top: 25px;
+}
+.inicio .btn {
+  background: #414140;
+  border: none;
+  color: #fff;
+  padding: 20px 35px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-size: 13px;
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  border-radius: 0;
+}
+.cd-intro b{
+  color: #02bdd6;
+
+}
+#pantalla{
+	width:100%;
+	height:100%;
+	
+}
+#prueba{
+	
+	background: url('../images/datos.png') no-repeat;
+	background-size: cover;
+ 	padding: 230px 0;
+  	box-shadow: 0 0 8px rgba(0, 0, 0, 1.5);
+  	position: relative;
+  	
+  	min-height:100%;
+  
+}
+
+.navbar{
+	
+    margin-bottom: 0px;
+}
+
+#prueba2{
+	background: url('../images/roles.png') no-repeat;
+	background-size: cover;
+ 	padding: 230px 0;
+  	box-shadow: 0 0 8px rgba(0, 0, 0, 1.5);
+  	position: relative;
+  	min-height:100%;
+}
+
+
+
+
